@@ -36,14 +36,14 @@
             // CategoryCb
             // 
             this.CategoryCb.FormattingEnabled = true;
-            this.CategoryCb.Location = new System.Drawing.Point(133, 100);
+            this.CategoryCb.Location = new System.Drawing.Point(325, 103);
             this.CategoryCb.Name = "CategoryCb";
             this.CategoryCb.Size = new System.Drawing.Size(121, 24);
             this.CategoryCb.TabIndex = 0;
             // 
             // RdmJokeBtn
             // 
-            this.RdmJokeBtn.Location = new System.Drawing.Point(122, 139);
+            this.RdmJokeBtn.Location = new System.Drawing.Point(314, 142);
             this.RdmJokeBtn.Name = "RdmJokeBtn";
             this.RdmJokeBtn.Size = new System.Drawing.Size(143, 74);
             this.RdmJokeBtn.TabIndex = 1;
@@ -54,16 +54,17 @@
             // TextBox
             // 
             this.TextBox.AutoSize = true;
-            this.TextBox.Location = new System.Drawing.Point(170, 230);
+            this.TextBox.Location = new System.Drawing.Point(188, 244);
             this.TextBox.Name = "TextBox";
             this.TextBox.Size = new System.Drawing.Size(0, 17);
             this.TextBox.TabIndex = 2;
+            this.TextBox.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 378);
+            this.ClientSize = new System.Drawing.Size(832, 421);
             this.Controls.Add(this.TextBox);
             this.Controls.Add(this.RdmJokeBtn);
             this.Controls.Add(this.CategoryCb);
